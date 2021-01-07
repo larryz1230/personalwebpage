@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<family>
+  <person relation="father">
+  	<name>Sean</name>
+  	<age>It's a secret</age>
+  	<birthmonth>8</birthmonth>
+  </person>
+
+  <person relation="brother">
+  	<name>David</name>
+  	<age>It's a secret</age>
+  	<birthmonth>3</birthmonth>
+  </person>
+
+  <person relation="myself">
+  	<role>Son</role>
+  	<name>Larry</name>
+  	<age>It's a secret</age>
+  	<birthmonth>12</birthmonth>
+  </person>
+
+  <person relation="mother">
+  	<name>Quan</name>
+  	<age>It's a secret</age>
+  	<birthmonth>6</birthmonth>
+  </person>
+<family>

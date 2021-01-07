@@ -1,0 +1,76 @@
+.menu{
+	position: absolute;
+    width: 100%;
+    left: 0px;
+}
+
+.menu ul{
+	display : inline-flex;
+	margin : 40px;
+}
+
+.menu ul li{
+	list-style: none;
+	margin: 0 30px;
+	color: #b2b1b1;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#backtohome{
+	float: right;
+	position: absolute;
+	right: 0px;
+	top: 40px;
+}
+
+
+
+.banner{
+	/*background-color: #323442;*/
+	background-color: black ;
+	/*background-image: url("https://www.physiquipe.com/wp-content/uploads/2019/12/Technology-Website-Banner.png");*/
+	opacity: 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 85px;
+	width: *;
+	margin-bottom: 20px;
+	margin-left: 0px;
+    margin-right: 0px;
+
+    /*position: absolute;
+    width: 100%;
+    left: -100%;
+    /*background: blue;*/
+    -webkit-animation: slide 1s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 1s forwards;
+    animation-delay: 0.5s;*/
+}
+
+html{
+	margin: none;
+	padding: none;
+/*	margin: none;
+	padding: none;
+	background-image: url(../images/background.jpg);
+	 height: 100%;*/
+}
+body{
+	/*background : #3b778c;*/
+	background : grey;
+	margin: 0 !important;
+
+	padding: 0 !important;
+}
+
+/*
+light beige: #CFB997;
+
+dark brown 1c1b1b
+
+
+
+*/
