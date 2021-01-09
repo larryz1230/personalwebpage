@@ -35,13 +35,13 @@ function gotointerests(){
 	
 }
 
-setInterval(function(){ 
-	var d = new Date();
-	document.getElementById("demo").innerHTML = d.toDateString();
+// setInterval(function(){ 
+// 	var d = new Date();
+// 	document.getElementById("demo").innerHTML = d.toDateString();
 
-}, 	1000);
+// }, 	1000);
 
 
 
-	var d = new Date();
-	document.getElementById("demo").innerHTML = d.toDateString();
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toDateString();
