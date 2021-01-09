@@ -34,3 +34,14 @@ function gotointerests(){
     window.location.href = "interests.html"}, 3000);
 	
 }
+
+setInterval(function(){ 
+	var d = new Date();
+	document.getElementById("demo").innerHTML = d.toDateString();
+
+}, 	1000);
+
+
+
+	var d = new Date();
+	document.getElementById("demo").innerHTML = d.toDateString();

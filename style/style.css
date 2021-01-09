@@ -1,15 +1,23 @@
 html{
 	margin: none;
 	padding: none;
+	background-image: url("https://wallpapercave.com/wp/wp6839401.png");
+	 height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 body{
-	background : #3b778c;
+	/*background : #3b778c;*/
 	margin: 0 !important;
 	padding: 0 !important;
 }
 
 h1{
-	color: white;
+	color: black;
 	font-size: 35px;
 	font-weight: 400;	
 	padding: 0 !important;
@@ -19,17 +27,23 @@ h1{
 
 h2{
 	font-size: 33px;
-	color: white;	
+	color: white	;	
 	float: left;
 	padding: 0 !important;
   	margin: 0 !important;
 	/*border: 1px solid black;*/
 }
 
-#contentp{
+p{
 	font-size: 20px;
+	color: white;
+}
+
+#contentp{
+	font-size: 22px;
 	color: black;
 	text-align: left;
+	color: white;
 }
 
 
@@ -49,7 +63,7 @@ h2{
 .menu ul li{
 	list-style: none;
 	margin: 0 30px;
-	color: #b2b1b1;
+	color: black;
 	cursor: pointer;
 	text-decoration: none;
 }
@@ -64,12 +78,14 @@ h2{
 
 .banner{
 	/*background-color: #323442;*/
-	background-color: black ;
+	/*background-color: grey;*/
+	/*background-color:rgba(0, 0, 0, 0.5);*/
+
 	/*background-image: url("https://www.physiquipe.com/wp-content/uploads/2019/12/Technology-Website-Banner.png");*/
-	opacity: 90%;
-	background-position: center;
+/*	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+	/*border-bottom: 1px solid ;*/
 	height: 85px;
 	width: *;
 	margin-bottom: 20px;
@@ -88,12 +104,12 @@ h2{
 
 
 a{
-	color: #b2b1b1;
+	color: #dce1e3;
 	text-decoration: none;
 }
 
 #active{
-	color: white;
+	color:white;
 }
 
 .title{
@@ -124,8 +140,8 @@ a{
 	display: inline-flex;
 /*	border: 1px solid black;*/
 	margin-bottom: 50px;
-	background-color: #a7b1c2;
-	border-radius: 8px;
+	background-color:rgba(42, 80, 94, 0.8);
+	border-radius: 15px;
 	padding: 5px;
 }
 
@@ -159,6 +175,14 @@ ul li{
 	font-size: 16px;	
 }
 
+#lab{
+	font-size: 20px;
+	font-weight: 200;
+}
+
+#lab li{
+	font-size: 18px;
+}
 
 .dropdown:hover .dropdown-content {display: block; cursor: pointer;}
 
@@ -167,17 +191,17 @@ ul li{
 
 
 .container{
-	width: 60%;
+	width: 50%;
 	margin: auto;
 	position: absolute;
-	top: 175px;
-	left: 20%;
+	top: 170px;
+	left: 25%;
 }
 
 
 #about{
 	position: absolute;
-	top: 120px;
+	top: 100px;
 	left: 45%;
 }
 
@@ -254,7 +278,7 @@ user-select: none;
 }
 
 .mySlides img{
-	height: 530px;
+	height: 450px;
 }
 
 
