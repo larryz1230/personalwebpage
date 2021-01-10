@@ -217,7 +217,7 @@ ul li{
 
 .prev{
 	position: absolute;
-	top: 270px;
+	top: 160px;
 	left: 5px;
 	width: 20px;
 	cursor: pointer;
@@ -232,7 +232,7 @@ ul li{
 
 .next {
  position: absolute;
-	top: 270px;
+	top: 160px;
 	right: 5px;
 	width: 20px;
 	cursor: pointer;
@@ -263,9 +263,33 @@ ul li{
 .caption-container {
   text-align: center;
   /*background-color: #222;*/
+  padding: 2px 5px;
+  color: black	;  /*background-color: #495251;*/
+}
+
+.caption-container p{
+	color: black;
+	margin-top: 0;
+}
+.caption-explanation {
+  text-align: center;
+  /*background-color: #222;*/
   padding: 2px 16px;
   color: white	;
-  background-color: #495251;
+  /*background-color: #495251;*/
+    background-color: rgb(242, 242, 242, 0.8);
+  position: absolute;
+  top: 200px;
+  right: 10%;
+  width: 35%;
+  height: 350px;
+  border-radius: 16px;
+}
+
+.caption-explanation p{
+	color: black;
+	line-height: 2;
+	margin-top: 15px;
 }
 
 ul:before{
@@ -286,7 +310,7 @@ user-select: none;
 }
 
 .mySlides img{
-	height: 450px;
+	height: 350px;
 }
 
 
@@ -312,10 +336,17 @@ user-select: none;
 	display: block;
 }
 
-		.contacttitle{
+.contacttitle{
   text-align: center;
 }
 
 .contacttitle h1{
   color: white;
+}
+
+.intcon{
+	width: 35%;
+	position: absolute;
+	left: 10%;
+	top: 200px;
 }

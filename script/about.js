@@ -19,7 +19,7 @@ function getDate(){
   var seconds = Math.floor((distance % (1000 * 60)) / 1000) + minutes*60 + hours*3600 + days*3600*24;
 
   // Display the result in the element with id="demo"
-  document.getElementById("specage").innerHTML = "I am currently "+ years + " years and " + seconds + " seconds old ";
+  document.getElementById("contentp").innerHTML = "Hi! My name is Larry Zhi and this website is my personal webpage. I am currently " + years + " years and " + seconds +" seconds old. I go to American High School (well now I attend school online). This website was built with basic html, css, and a bit of js. Navigate to the my interests page to learn more about my interests."
 }
 
 setInterval(getDate, 1000);

@@ -39,7 +39,7 @@ function gotointerests(){
 
 function gotocontact(){
   sampleVar = setTimeout(() => { 
-    window.location.href = "interests.html"}, 3000);
+    window.location.href = "contact.html"}, 3000);
   
 }
 
