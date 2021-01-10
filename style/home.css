@@ -144,6 +144,13 @@ a{
   100% {background-color: none; left: 1300px; top:220px; transform: rotate(0deg);}
 }
 
+@keyframes example3 {
+  0%   {background-color: none; left:0px; top:600px; transform: rotate(-360deg);}
+  33%  {background-color: none; left:600px; top:400px; transform: rotate(0deg);}
+  66%  {background-color: none; left: 100px; top:350px; transform: rotate(-1080deg);}
+  100% {background-color: none; left: 300px; top:220px; transform: rotate(-720deg);}
+}
+
 @keyframes random {
   0%   {background-color: none; left:0px; top:600px; transform: rotate(-360deg);}
   20%  {background-color: none; left:1300px; top:500px; transform: rotate(0deg);}
@@ -161,7 +168,7 @@ a{
   left: 0px;
   background-image: url("https://www.pngkit.com/png/full/903-9039177_kawaii-unicorn-cute-chubby-fat-horn-magic-magical.png");
   animation-name: example2;
-  animation-duration: 3s;
+  animation-duration: 3.1s;
   -webkit-animation-play-state: paused;
   z-index: 2;
 }

@@ -25,4 +25,3 @@ function getDate(){
 setInterval(getDate, 1000);
 getDate();
 
-

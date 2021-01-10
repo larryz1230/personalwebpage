@@ -3,6 +3,7 @@
 <head>
 	<title>My Personal Webpage</title>
 	<link rel="stylesheet" href="../style/style.css">
+	<link rel="stylesheet" href="../style/contacts.css">
 	<!-- <link rel="stylesheet" href="../style/colors.css"> -->
 
 	<link rel = "stylesheet" href ="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,10 +17,9 @@
 			<ul>
 			<!-- 	<li class = "logo"><img src = "icon.webp"></li> -->
 				
-				<li id = "active"> About Me </a> </li>
-<!-- 				<div class="dropdown"> -->
+				<li> <a href="about.html">	About Me </a> </li>
 				<li ><a href="interests.html"> My Interests </a> </li>
-				<li> <a href="contact.html"> Contact </a> </li>
+				<li id = "active"> Contact </a> </li>
 				<li id="back"><a href="home.html">Back To Home</a></li>
 <!-- 				<div id = "droppy"class="dropdown-content">
 				    <a onclick="#">Soccer</a>
@@ -33,39 +33,35 @@
 	</div>
 
 	<div class="contacttitle">
-		<h1>About Me</h1>
+		<h1>Contact Me</h1>
 	</div>
 
-	<!-- Main Content / Information for this page -->
-	<div class = "maincontenthome">
 
-		
+<div class="container">
+  <!-- <form action="../action_page.php"> -->
 
-		<div class="float">
+    <label for="fname">Email</label>
+    <input type="text" id="fname" name="email" placeholder="Your email..">
 
-			<figure class="fig">
-			  <img src="https://12ax7web.s3.amazonaws.com/accounts/1/products/1986199880631/Im-A-Bitter-Angry-Unicorn_800x800_SEPS-1000x1000.jpg" height ="400px">
-			  <figcaption style="color: black">This is me</figcaption>
-			</figure>
+<!--     <label for="country">Country</label>
+    <select id="country" name="country">
+    	<option value="usa">USA</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      
+    </select> -->
 
-			<div class="vert">
-			
-			<p id = "contentp"> Hi! My name is Larry Zhi and this website is my personal webpage. I am currently 17 years and 0 seconds old. I go to American High School (well now I attend school online). This website was built with basic html, css, and a bit of js. Navigate to the "my interests" page to learn more about my interests.
-			</p>
-<!-- 
-			<ul id = "lab" aria-label="Some facts about myself" style="color: black;">
-				<br>
-				<li id = "specage"></li>
-				<li>I like food</li>
-				<li>I play games even when I should be doing homework instead</li>
-				<li>I enjoy coding</li>
-				<li>Yea, that's about it</li>
-			</ul> -->
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject..">
 
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
 
-		</div>
+    <input type="submit" onclick="submitted()" value="Submit">
 
-	</div>
+  </form>
+</div>
+
 
 
 <div class = "social-icons">
@@ -78,7 +74,8 @@
 		</div>
 
 
-	<script type="text/javascript" src="../script/about.js"></script>
+	<script type="text/javascript" src="../script/contact.js"></script>
 
 </body>
 </html>	
+

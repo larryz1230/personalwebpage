@@ -6,9 +6,11 @@ function move(name){
   document.getElementById("square").style.WebkitAnimationPlayState = "running";
   if (name=="example"){
   	gotoabout();
-  } else{
+  } else if(name=="interests"){
   	gotointerests();
-  }  
+  }  else{
+    gotocontact();
+  }
 }
 
 function moverandom(){
@@ -33,6 +35,12 @@ function gotointerests(){
 	sampleVar = setTimeout(() => { 
     window.location.href = "interests.html"}, 3000);
 	
+}
+
+function gotocontact(){
+  sampleVar = setTimeout(() => { 
+    window.location.href = "interests.html"}, 3000);
+  
 }
 
 // setInterval(function(){ 
