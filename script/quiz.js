@@ -57,7 +57,7 @@ button.addEventListener('click', () => {
 		if (currentquestion<numq){
 			loadQuiz();
 		} else {
-			document.getElementById('quiz').innerHTML = '<h2>You got ' + score + '/ ' + numq + ' questions</h2> <button onClick="location.reload()" >Restart</button>'
+			document.getElementById('quiz').innerHTML = '<div class="something"><h2 style="color: black;">You got ' + score + '/ ' + numq + ' questions correct </h2> <button onClick="location.reload()" style="position: relative; bottom: 0px; left:0px;" >Restart</button> </div>'
 
 		}
 		// console.log(score);

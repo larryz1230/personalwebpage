@@ -9,7 +9,7 @@ function move(name){
   } else if(name=="interests"){
   	gotointerests();
   }  else{
-    gotocontact();
+    gotoquiz();
   }
 }
 
@@ -37,9 +37,9 @@ function gotointerests(){
 	
 }
 
-function gotocontact(){
+function gotoquiz(){
   sampleVar = setTimeout(() => { 
-    window.location.href = "contact.html"}, 3000);
+    window.location.href = "quiz.php"}, 3000);
   
 }
 
