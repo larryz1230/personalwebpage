@@ -2,24 +2,44 @@
 <html>
 <head>
 	<title>Quiz!</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="stylesheet" type="text/css" href="../style/contact.css">
 </head>
 
 
 
 <body>
 
+	<div class = "menu">
+			<ul>
+			<!-- 	<li class = "logo"><img src = "icon.webp"></li> -->
+				
+				<li><a> About Me </a> </li>
+<!-- 				<div class="dropdown"> -->
+				<li ><a href="interests.html"> My Interests </a> </li>
+				<li> <a href="contact.html"> Contact </a> </li>
+				<li id="active"> Quiz </a> </li>
+				<li id="back"><a href="home.html">Back To Home</a></li>
+<!-- 				<div id = "droppy"class="dropdown-content">
+				    <a onclick="#">Soccer</a>
+				    <a onclick="#">Video Games</a>
+				    <a onclick="#">Coding</a>
+				  </div>
+				</div> -->
+			</ul>
+		</div>	
+		<br>
+	</div>
+
 
 	<div class="container" id="quiz">
 		<div class="quizheader">
 
+		<h2 id="question" style="color: black;">Question Text</h2>
+		<br>
 
 
-		<h2 id="question">Question Text</h2>
-
-
-		<ul>	
+		<ul id="test">	
 			<li>
 				<input type="radio" name="choice" class="answer" id="a">
 				<label for "a" id="a_text">Question</label>
@@ -40,6 +60,9 @@
 	</div>
 
 	<button id="submit">Submit</button>
+
+
+<!-- 	<button id="restart" style="display: none">Restart</button> -->
 
 
 

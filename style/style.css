@@ -350,3 +350,19 @@ user-select: none;
 	left: 10%;
 	top: 200px;
 }
+
+
+
+
+
+ul li{
+	text-decoration: none;
+list-style: none;
+}
+
+.something{
+	width: 60%;
+	/*border: 1px solid black;*/
+	display: block;
+	vertical-align: middle;
+}
