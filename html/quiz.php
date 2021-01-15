@@ -15,11 +15,11 @@
 			<!-- 	<li class = "logo"><img src = "icon.webp"></li> -->
 				
 				<li><a href = "about.html"> About Me </a> </li>
+
 <!-- 				<div class="dropdown"> -->
 				<li ><a href="interests.html"> My Interests </a> </li>
 				<li> <a href="contact.html"> Contact </a> </li>
 				<li id="active"> Quiz </a> </li>
-
 				<li id="back"><a href="home.html">Back To Home</a></li>
 <!-- 				<div id = "droppy"class="dropdown-content">
 				    <a onclick="#">Soccer</a>
@@ -64,8 +64,6 @@
 
 
 <!-- 	<button id="restart" style="display: none">Restart</button> -->
-
-
 		
 	</div>
 
