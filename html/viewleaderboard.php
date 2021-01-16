@@ -138,7 +138,7 @@ function console_log($output, $with_script_tags = true) {
 
   
 
-  <script src="../script/Leaderboard.js"></script>
+  <script src="../script/leaderboard.js"></script>
 </body>
 </html>
 
