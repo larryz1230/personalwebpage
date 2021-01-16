@@ -4,11 +4,18 @@
 	<title>Quiz!</title>
 	<link rel="stylesheet" type="text/css" href="../style/style.css">
 	<link rel="stylesheet" type="text/css" href="../style/contact.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 
 
 <body>
+
+	<form style="display: none; position: absolute; top: 50%; left: 50%; z-index: 999; width: 30%; height: 30%; background-color: black; align-content: center;" id="formfrom">
+			<p> Before you continue, please enter your name/username to track your score.
+			<input type="text" name="nam" id="nam" placeholder="name">
+			<button value="Submit" onclick="savenam()" style="height: 50px; width: 200px;">Continue</button>
+		</form>
 
 	<div class = "menu">
 			<ul>
@@ -20,6 +27,9 @@
 				<li ><a href="interests.html"> My Interests </a> </li>
 				<li> <a href="contact.html"> Contact </a> </li>
 				<li id="active"> Quiz </a> </li>
+
+				<li> <a href="viewleaderboard.php"> Leaderboards </a> </li>
+				<li> <a href="createquestion.php"> Make Question </a> </li>
 				<li id="back"><a href="home.html">Back To Home</a></li>
 <!-- 				<div id = "droppy"class="dropdown-content">
 				    <a onclick="#">Soccer</a>
@@ -29,8 +39,8 @@
 				</div> -->
 			</ul>
 		</div>	
-		<br>
-	</div>
+
+	<!-- </div> -->
 
 
 	<div class="container" id="quiz">
@@ -70,21 +80,26 @@
 
 
 
+	<div class="update_leader" style="position: absolute; bottom: 0px;">
 
+		<form action="leaderboard.php" method="POST" onsubmit="return certain()" id="butt">
+			<input type="text" name="username" id="username" placeholder="name" readonly="true">
+			<input type="text" id ="hiscore" name="hiscore" placeholder="score" readonly="true">
+			<input type="submit"  value="Submit" style="display: none" >
+		</form>
 
+		
+	</div>
 
-
-<!-- 
-	<div style="position: absolute;
-	top: 450px;
-	left: 30%;
-	width: 50px;"> -->
-
-<!-- 	<p id = "logout"><a href="logout.php">Logout</a></p>
-
-	<p id = "makeq"><a href="createquestion.php">Create</a></p> -->
 
 </div>
+
+
+
+
+
+
+
 
 
 <?php
