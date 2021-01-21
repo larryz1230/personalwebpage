@@ -11,7 +11,7 @@
 
 <body>
 
-	<form style="display: none; position: absolute; top: 50%; left: 50%; z-index: 999; width: 30%; height: 30%; background-color: black; align-content: center;" id="formfrom">
+	<form style="display: none; position: absolute; top: 20%; left: 25%; z-index: 999; width: 60%; height: 40%; background-color: grey; align-content: center;" id="formfrom">
 			<p> Before you continue, please enter your name/username to track your score.
 			<input type="text" name="nam" id="nam" placeholder="name">
 			<button value="Submit" onclick="savenam()" style="height: 50px; width: 200px;">Continue</button>
