@@ -6,7 +6,7 @@ function move(name){
   document.getElementById("square").style.WebkitAnimationPlayState = "running";
   if (name=="example"){
   	gotoabout();
-  } else if(name=="interests"){
+  } else if(name=="example2"){
   	gotointerests();
   }  else{
     gotoquiz();
